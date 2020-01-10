@@ -1,0 +1,9 @@
+﻿@page "/"
+@inject IToastService ToastService;
+
+<button class="btn btn-primary" @onclick="@(async () => await ToastService.AddToastAsync("Default Toast"))">Default</button>
+<button class="btn btn-info" @onclick="@(async () => await ToastService.AddToastAsync("Info toast", "info", "fade"))">Info</button>
+<button class="btn btn-success" @onclick="@(async () => await ToastService.AddToastAsync("Success Toast", "success"))">Success</button>
+<button class="btn btn-warning" @onclick="@(async () => await ToastService.AddToastAsync("Warning Toast", "warning"))">Warning</button>
+<button class="btn btn-danger" @onclick="@(async () => await ToastService.AddToastAsync("Error Toast", "error", "bounce", 10000))">Error</button>
+<button class="btn btn-success" @onclick="@(async () => await ToastService.AddToastAsync("🐆 You can also use Emojis!", "success"))">Emojis yaay!</button>

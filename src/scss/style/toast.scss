@@ -1,0 +1,42 @@
+.toast {
+    position: relative;
+    opacity: 1;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    overflow: hidden;
+    min-height: $toast-min-height;
+    max-height: $toast-max-height;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 1px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .1), 0 2px 15px 0 rgba(0, 0, 0, .05);
+    color: #FFFFFF;
+    background-color: #000000;
+    direction: ltr;
+    font-family: $font-family-default;
+    cursor: pointer;
+    align-items: center;
+}
+
+.info {
+    background-color: $bg-color-info;
+}
+
+.success {
+    background-color: $bg-color-success;
+}
+
+.warning {
+    background-color: $bg-color-warning;
+}
+
+.error {
+    background-color: $bg-color-error;
+}
+
+@media only screen and (max-width: 480px) {
+    .toast {
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,203 @@
+﻿.animated {
+    animation-duration: 600ms;
+    animation-fill-mode: both;
+}
+
+@keyframes bounceInRight {
+    from, 60%, 75%, 90%, to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    from {
+        opacity: 0;
+        transform: translate3d(3000px, 0, 0);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(-25px, 0, 0);
+    }
+
+    75% {
+        transform: translate3d(10px, 0, 0);
+    }
+
+    90% {
+        transform: translate3d(-5px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.bounceInRight {
+    animation-name: bounceInRight;
+}
+
+@keyframes bounceOutRight {
+    20% {
+        opacity: 1;
+        transform: translate3d(-20px, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(2000px, 0, 0);
+    }
+}
+
+.bounceOutRight {
+    animation-name: bounceOutRight;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeOutRight {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+}
+
+.fadeOutRight {
+    animation-name: fadeOutRight;
+}
+
+.toast-container {
+    z-index: 9999;
+    position: fixed;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 320px;
+    color: #FFFFFF;
+}
+
+.top-left {
+    top: 1em;
+    left: 1em;
+}
+
+.top-right {
+    top: 1em;
+    right: 1em;
+}
+
+.bottom-right {
+    bottom: 1em;
+    right: 1em;
+}
+
+.bottom-left {
+    bottom: 1em;
+    left: 1em;
+}
+
+@media only screen and (max-width: 480px) {
+    .toast-container {
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .top-left {
+        top: 0;
+        left: 0;
+    }
+
+    .top-right {
+        top: 0;
+        right: 1em;
+    }
+
+    .bottom-right {
+        bottom: 0;
+        right: 1em;
+    }
+
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.toast {
+    position: relative;
+    opacity: 1;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    overflow: hidden;
+    min-height: 72px;
+    max-height: 600px;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 1px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+    color: #FFFFFF;
+    background-color: #000000;
+    direction: ltr;
+    font-family: sans-serif;
+    cursor: pointer;
+    align-items: center;
+}
+
+.info {
+    background-color: #17A2B8;
+}
+
+.success {
+    background-color: #28A745;
+}
+
+.warning {
+    background-color: #FFC107;
+}
+
+.error {
+    background-color: #DC3545;
+}
+
+@keyframes trackProgress {
+    0% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+.progress {
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    transform-origin: left;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.progress-animated {
+    animation: trackProgress linear 1s forwards;
+}

@@ -1,0 +1,56 @@
+.toast-container {
+    z-index: $z-index-default;
+    position: fixed;
+    padding: 5px;
+    box-sizing: border-box;
+    width: $toast-width;
+    color: #FFFFFF;
+}
+
+.top-left {
+    top: 1em;
+    left: 1em;
+}
+
+.top-right {
+    top: 1em;
+    right: 1em;
+}
+
+.bottom-right {
+    bottom: 1em;
+    right: 1em;
+}
+
+.bottom-left {
+    bottom: 1em;
+    left: 1em;
+}
+
+@media only screen and (max-width: 480px) {
+    .toast-container {
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .top-left {
+        top: 0;
+        left: 0;
+    }
+    
+    .top-right {
+        top: 0;
+        right: 1em;
+    }
+    
+    .bottom-right {
+        bottom: 0;
+        right: 1em;
+    }
+    
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+    }
+}

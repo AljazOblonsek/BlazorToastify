@@ -1,0 +1,17 @@
+﻿<div class="toast-container top-right">
+    @if (ToastService.Toasts != null)
+    {
+        foreach (var toast in ToastService.Toasts)
+        {
+            string animationIn = toast.Animation + "InRight";
+            string animationOut = toast.Animation + "OutRight";
+
+            <div @onclick="@(() => ToastService.RemoveToastAsync(toast))"
+                 class="toast @toast.Type animated @(toast.EnterAnimation ? animationIn : "") @(toast.ExitAnimation ? animationOut : "")"
+                 style="display:@(toast.Visible ? "flex" : "none")">
+                @toast.Message
+                <div class="progress progress-animated" style="animation-duration: @((toast.AutoClose / 1000.0).ToString().Replace(',', '.'))s;"></div>
+            </div>
+        }
+    }
+</div>
