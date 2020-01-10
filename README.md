@@ -45,7 +45,7 @@ Add `<ToastContainer />` tag in your razor layout. For example: `MainLayout.razo
 Add the following line at the END of your `head` tag to your `_Host.cshtml` (Blazor Server App) or `index.html` (Blazor WebAssembly).
 
 ```html
-<link href="_content/BlazorToastify/blazor-toast-style.css" rel="stylesheet" />
+<link href="_content/BlazorToastify/blazor-toastify-style.css" rel="stylesheet" />
 ```
 
 ## 2. Usage

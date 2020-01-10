@@ -1,0 +1,56 @@
+{
+  "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\BlazorToastify.Client.csproj",
+  "Configuration": {
+    "ConfigurationName": "Default",
+    "LanguageVersion": "3.0",
+    "Extensions": []
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "BlazorToastify.Client",
+  "Documents": [
+    {
+      "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Documents\\Programi\\Blazor\\blazortoastify-git\\BlazorToastify\\samples\\BlazorToastify.Client\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
