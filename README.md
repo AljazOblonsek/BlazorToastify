@@ -6,7 +6,7 @@ BlazorTostify is an open source AND javascript-free toast notification package f
 ## Table of contents
 1. [Getting started & Installation](#1-Getting-Started-&-Installation)
 2. [Usage](#2-Usage)
-3. [Documentation] (#3-Documentation)
+3. [Documentation](#3-Documentation)
 
 ## 1. Getting Started & Installation
 [Link to package](https://www.nuget.org/packages/BlazorToastify/)
