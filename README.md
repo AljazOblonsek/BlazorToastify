@@ -1,9 +1,12 @@
 # BlazorToastify
 BlazorTostify is an open source AND javascript-free toast notification package for Blazor Framework.
 
+![Demo gif of BlazorToastify](DemoGIF.gif)
+
 ## Table of contents
 1. [Getting started & Installation](#1-Getting-Started-&-Installation)
 2. [Usage](#2-Usage)
+3. [Documentation] (#3-Documentation)
 
 ## 1. Getting Started & Installation
 [Link to package](https://www.nuget.org/packages/BlazorToastify/)
@@ -68,7 +71,7 @@ await ToastService.AddToastAsync(
 <button class="btn btn-danger" @onclick="@(async () => await ToastService.AddToastAsync("error Toast", "error", "bounce", 10000))">Error</button>
 ```
 
-Examples are included in [samples](https://google.si) folder.
+Examples are included in [samples](https://github.com/AljazOblonsek/BlazorToastify/tree/master/samples) folder.
 
 ## 3. Documentation
 
