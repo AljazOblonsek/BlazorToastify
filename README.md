@@ -4,9 +4,10 @@ BlazorTostify is an open source AND javascript-free toast notification package f
 ![Demo gif of BlazorToastify](DemoGIF.gif)
 
 ## Table of contents
-1. [Getting started & Installation](#1-Getting-Started-&-Installation)
+1. [Getting Started & Installation](#1-Getting-Started-&-Installation)
 2. [Usage](#2-Usage)
 3. [Documentation](#3-Documentation)
+4. [Contributions and Feedback](#4-Contributions-and-Feedback)
 
 ## 1. Getting Started & Installation
 [Link to package](https://www.nuget.org/packages/BlazorToastify/)
@@ -82,3 +83,6 @@ Method is awaitable, it adds a toast in toast container.
     * `type`: string, not required - options: default, info, success, warning, error // Type of the toast notification
     * `animation`: string, not required - options: bounce, fade // Animation the toast notification will use
     * `autoClose`: int, not required - // Time for toast to be visible in MS
+
+## 4. Contributions and Feedback
+Feel free to open issues, fix bugs and provide feedback on how to improve the package.
